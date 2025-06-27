@@ -28,6 +28,6 @@ export const sendSubscriberEmail = async(req, res)=>{
 
     res.json({success: true, message: "Subscription successful!" });
   } catch (error) {
-    res.json({ success: false, message: "message" });
+    res.json({ success: false, message: error.message });
   }
 }
