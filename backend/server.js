@@ -15,7 +15,9 @@ await connectDB()
 
 //Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL 
+  origin: process.env.FRONTEND_URL ,
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: true
 }));
 app.use(express.json());
 
