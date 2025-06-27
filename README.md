@@ -54,7 +54,7 @@
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/gogoi-anuraj/BlogOut.git](https://github.com/yourusername/blogout.git)
+    git clone [https://github.com/gogoi-anuraj/BlogOut.git]
     cd BlogOut
     ```
     or download the zip file
